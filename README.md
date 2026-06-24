@@ -31,9 +31,9 @@ Built for boat survival, "ocean only" challenges, and hardcore runs where every 
 ### Downloads
 Ready-to-use ZIPs are in [`dist/`](dist):
 - [`high_water_256_en.zip`](dist/high_water_256_en.zip) — advancements in **English**
-- [`high_water_256_ua.zip`](dist/high_water_256_ua.zip) — advancements in **Ukrainian**
+- [`high_water_256_uk.zip`](dist/high_water_256_uk.zip) — advancements in **Ukrainian**
 
-The unpacked sources live in [`en/`](en) and [`ua/`](ua). Pick **one** build — don't load both in the same world.
+The unpacked sources live in [`en/`](en) and [`uk/`](uk). Pick **one** build — don't load both in the same world.
 
 ### Installation (apply when CREATING the world)
 World-generation settings are locked in at world creation — adding the pack to an existing world will **not** flood it.
@@ -42,6 +42,9 @@ World-generation settings are locked in at world creation — adding the pack to
 3. Create the world — you'll spawn underwater.
 
 > The advancements and the trade also work on an existing world via `/reload`; only the flooding and structure changes require a fresh world.
+
+### Recommended seed
+New to the pack? Try seed **`-322026680007972738`** — there's a shipwreck right next to spawn to loot and get started.
 
 ### Tips
 - **Lava & obsidian:** with aquifers off, caves are water-filled from y=-54 up to y=256. Natural lava only exists **below y=-54** (just above bedrock). Dig down to ~y=-55, then pour water on the lava to make obsidian.
@@ -72,9 +75,9 @@ Advancement strings live in [`translations/`](translations) (`en_us.json`, `uk_u
 ### Завантаження
 Готові ZIP-файли — у теці [`dist/`](dist):
 - [`high_water_256_en.zip`](dist/high_water_256_en.zip) — досягнення **англійською**
-- [`high_water_256_ua.zip`](dist/high_water_256_ua.zip) — досягнення **українською**
+- [`high_water_256_uk.zip`](dist/high_water_256_uk.zip) — досягнення **українською**
 
-Розпаковані джерела — у [`en/`](en) та [`ua/`](ua). Обери **одну** збірку — не вмикай обидві в одному світі.
+Розпаковані джерела — у [`en/`](en) та [`uk/`](uk). Обери **одну** збірку — не вмикай обидві в одному світі.
 
 ### Встановлення (під час СТВОРЕННЯ світу)
 Параметри генерації світу фіксуються при створенні — додавання набору до наявного світу його **не** затопить.
@@ -83,6 +86,9 @@ Advancement strings live in [`translations/`](translations) (`en_us.json`, `uk_u
 3. Створи світ — ти з'явишся під водою.
 
 > Досягнення й торгівля працюють і в наявному світі через `/reload`; затоплення та зміни структур потребують нового світу.
+
+### Рекомендований сід
+Не знаєш, з чого почати? Спробуй сід **`-322026680007972738`** — біля точки появи є затонулий корабель, який зручно обшукати на старті.
 
 ### Поради
 - **Лава та обсидіан:** з вимкненими водоносними шарами печери залиті водою від y=-54 до y=256. Природна лава є лише **нижче y=-54** (одразу над корінною породою). Копай до ~y=-55, потім вилий воду на лаву, щоб отримати обсидіан.
