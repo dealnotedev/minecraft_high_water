@@ -1,0 +1,20 @@
+{
+  "parent": "high_water:kill_trident_drowned",
+  "display": {
+    "icon": { "id": "minecraft:trident" },
+    "title": "Aquaman",
+    "description": "Get your hands on a Trident.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_trident": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:trident" } ]
+      }
+    }
+  }
+}

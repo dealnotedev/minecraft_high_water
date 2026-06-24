@@ -1,0 +1,20 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:grass_block" },
+    "title": "Землеторговець",
+    "description": "Купи дерен у Мандрівного торговця.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bought_grass": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": { "items": "minecraft:grass_block" }
+      }
+    }
+  }
+}

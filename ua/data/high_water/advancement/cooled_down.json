@@ -1,0 +1,20 @@
+{
+  "parent": "high_water:deep_diver",
+  "display": {
+    "icon": { "id": "minecraft:obsidian" },
+    "title": "Охолоджено",
+    "description": "Роздобудь обсидіан.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:obsidian" } ]
+      }
+    }
+  }
+}

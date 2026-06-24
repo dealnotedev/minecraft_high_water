@@ -1,0 +1,15 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:clock" },
+    "title": "100 днів на плаву",
+    "description": "Виживи 100 днів у затопленому світі.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": { "trigger": "minecraft:impossible" }
+  }
+}

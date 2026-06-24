@@ -1,0 +1,20 @@
+{
+  "parent": "high_water:water_breathing",
+  "display": {
+    "icon": { "id": "minecraft:turtle_helmet" },
+    "title": "Панцирошолом",
+    "description": "Роздобудь шолом із черепашого панцира.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_turtle_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:turtle_helmet" } ]
+      }
+    }
+  }
+}

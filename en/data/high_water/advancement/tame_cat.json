@@ -1,0 +1,28 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:cod" },
+    "title": "Purrfect",
+    "description": "Tame a Cat.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tamed_cat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

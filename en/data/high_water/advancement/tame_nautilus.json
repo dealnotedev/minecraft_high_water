@@ -1,0 +1,28 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:nautilus_shell" },
+    "title": "Nautimate",
+    "description": "Tame a Nautilus.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tamed": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:nautilus"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

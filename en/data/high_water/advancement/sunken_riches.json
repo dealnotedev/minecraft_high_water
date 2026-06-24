@@ -1,0 +1,18 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:heart_of_the_sea" },
+    "title": "Sunken Riches",
+    "description": "Loot a buried treasure chest.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "buried_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": { "loot_table": "minecraft:chests/buried_treasure" }
+    }
+  }
+}

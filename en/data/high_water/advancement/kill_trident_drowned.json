@@ -1,0 +1,31 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:rotten_flesh" },
+    "title": "Disarmed",
+    "description": "Defeat a Drowned that wields a Trident.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_trident_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:drowned",
+              "minecraft:equipment": {
+                "mainhand": { "items": "minecraft:trident" }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

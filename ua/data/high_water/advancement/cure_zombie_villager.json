@@ -1,0 +1,17 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:golden_apple" },
+    "title": "Повернення до життя",
+    "description": "Ослаб і вилікуй зомбі-жителя.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cured": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:wheat" },
+    "title": "Час годування",
+    "description": "Погодуй корову або вівцю.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "feed_cow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": { "items": "minecraft:wheat" },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": { "minecraft:entity_type": "minecraft:cow" }
+          }
+        ]
+      }
+    },
+    "feed_sheep": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": { "items": "minecraft:wheat" },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": { "minecraft:entity_type": "minecraft:sheep" }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "feed_cow", "feed_sheep" ]
+  ]
+}

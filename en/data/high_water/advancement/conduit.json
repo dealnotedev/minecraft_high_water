@@ -1,0 +1,20 @@
+{
+  "parent": "high_water:sponge",
+  "display": {
+    "icon": { "id": "minecraft:conduit" },
+    "title": "Deep Power",
+    "description": "Craft a Conduit.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_conduit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:conduit" } ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "high_water:deep_diver",
+  "display": {
+    "icon": { "id": "minecraft:lava_bucket" },
+    "title": "Відро сонця",
+    "description": "Набери лаву у відро.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_lava_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:lava_bucket" } ]
+      }
+    }
+  }
+}

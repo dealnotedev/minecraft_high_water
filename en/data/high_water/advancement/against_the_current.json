@@ -1,0 +1,20 @@
+{
+  "parent": "high_water:deep_diver",
+  "display": {
+    "icon": { "id": "minecraft:flint_and_steel" },
+    "title": "Against the Current",
+    "description": "Build a portal and enter the Nether.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": { "potion": "minecraft:water_breathing" }
+      }
+    },
+    "title": "Як риба",
+    "description": "Отримай ефект підводного дихання.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_water_breathing": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:water_breathing": {}
+        }
+      }
+    }
+  }
+}

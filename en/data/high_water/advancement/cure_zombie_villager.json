@@ -1,0 +1,17 @@
+{
+  "parent": "high_water:root",
+  "display": {
+    "icon": { "id": "minecraft:golden_apple" },
+    "title": "Back to Life",
+    "description": "Weaken and then cure a Zombie Villager.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cured": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  }
+}

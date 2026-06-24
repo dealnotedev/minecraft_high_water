@@ -1,0 +1,30 @@
+{
+  "parent": "high_water:deep_diver",
+  "display": {
+    "icon": { "id": "minecraft:lava_bucket" },
+    "title": "Дістань до дна",
+    "description": "Спустись нижче y=-54, до лави.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "below_lava_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "position": { "y": { "max": -54.0 } }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
