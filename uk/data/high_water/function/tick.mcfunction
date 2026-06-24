@@ -1,5 +1,7 @@
 # Make the advancement tab appear for everyone (root is granted via function).
 advancement grant @a only high_water:root
 
-# Grant "100 Days Adrift" once a player has 2,400,000 ticks of play time (= 100 days).
-execute as @a[scores={hw_playtime=2400000..}] run advancement grant @s only high_water:survive_100_days
+# Grant "100 Days Adrift" when the world reaches in-game day 100.
+# Uses the day counter, so day/night cycles (and sleeping) count toward it.
+execute store result score #current hw_day run time query day
+execute if score #current hw_day matches 100.. run advancement grant @a only high_water:survive_100_days
