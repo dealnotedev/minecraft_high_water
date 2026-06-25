@@ -30,8 +30,8 @@ Built for boat survival, "ocean only" challenges, and hardcore runs where every 
 
 ### Downloads
 Ready-to-use ZIPs are in [`dist/`](dist):
-- [`high_water_256_en.zip`](dist/high_water_256_en.zip) — advancements in **English**
-- [`high_water_256_uk.zip`](dist/high_water_256_uk.zip) — advancements in **Ukrainian**
+- [`HighWater-v1.0.0.zip`](dist/HighWater-v1.0.0.zip) — advancements in **English**
+- [`HighWater-v1.0.0-uk.zip`](dist/HighWater-v1.0.0-uk.zip) — advancements in **Ukrainian**
 
 The unpacked sources live in [`en/`](en) and [`uk/`](uk). Pick **one** build — don't load both in the same world.
 
@@ -74,8 +74,8 @@ Advancement strings live in [`translations/`](translations) (`en_us.json`, `uk_u
 
 ### Завантаження
 Готові ZIP-файли — у теці [`dist/`](dist):
-- [`high_water_256_en.zip`](dist/high_water_256_en.zip) — досягнення **англійською**
-- [`high_water_256_uk.zip`](dist/high_water_256_uk.zip) — досягнення **українською**
+- [`HighWater-v1.0.0.zip`](dist/HighWater-v1.0.0.zip) — досягнення **англійською**
+- [`HighWater-v1.0.0-uk.zip`](dist/HighWater-v1.0.0-uk.zip) — досягнення **українською**
 
 Розпаковані джерела — у [`en/`](en) та [`uk/`](uk). Обери **одну** збірку — не вмикай обидві в одному світі.
 
